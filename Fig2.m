@@ -1,5 +1,8 @@
-% Pandemic
+% Figure 2 of paper titled: "Disease spread coupled with evolutionary ... 
+% ... social distancing dynamics can lead to growing oscillations"
 %
+% Accepted at 60th Conference on Decision and Control (CDC 2021)
+% For the pdf of the paper, visit: https://hoseinkh.github.io/files/Disease-spread-coupled-with-evolutionary-social-distancing-dynamics-can-lead-to-growing-oscillations.pdf
 %
 %
 close all, clear all, clc;
@@ -68,7 +71,7 @@ for u = [1,2]
 %     end
     %% Plots
     figure(2*u-1)
-    plot(x,I, 'k','LineWidth',3)
+    plot(x,I, 'b','LineWidth',3)
     xlabel("x",'FontSize',24,'FontWeight','bold')
     ylabel("i",'FontSize',24,'FontWeight','bold')
     legend("i = f(x)",'FontSize',20,'FontWeight','bold')
@@ -80,8 +83,8 @@ for u = [1,2]
     fprintf("R inf = %2.2f \n",R(end))
     %
     figure(2*u)
-    plot(t,I, 'k','LineWidth',3); hold on;
-    plot(t,x, ':k','LineWidth',3); hold off;
+    plot(t,I, 'b','LineWidth',3); hold on;
+    plot(t,x, ':r','LineWidth',3); hold off;
     xlabel("time",'FontSize',24,'FontWeight','bold')
     ylabel("i, x",'FontSize',24,'FontWeight','bold')
     legend("i", "x",'FontSize',20,'FontWeight','bold')
@@ -94,8 +97,9 @@ for u = [1,2]
         %
         %
 end
+%% 
+H = "End of the Code";
 %
-H = 5+6
 %
 %% Function
 function dydt = call_dstate_9(t,y,parameters)

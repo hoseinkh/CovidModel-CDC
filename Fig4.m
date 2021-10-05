@@ -1,4 +1,8 @@
-% Pandemic
+% Figure 4 of paper titled: "Disease spread coupled with evolutionary ... 
+% ... social distancing dynamics can lead to growing oscillations"
+%
+% Accepted at 60th Conference on Decision and Control (CDC 2021)
+% For the pdf of the paper, visit: https://hoseinkh.github.io/files/Disease-spread-coupled-with-evolutionary-social-distancing-dynamics-can-lead-to-growing-oscillations.pdf
 %
 %
 close all, clear all, clc;
@@ -172,7 +176,10 @@ ylabel("r (\infty)",'FontSize',26)
 legend("Dimin OSC", "OSC TOC", "Anti-Coord Game",'FontSize',16)
 hold off
 %
-HH = 5+6;
+%% 
+H = "End of the Code";
+%
+%
 %% Function
 function dydt = call_dstate_9(t,y,parameters)
     %
