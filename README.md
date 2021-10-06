@@ -10,5 +10,5 @@ The paper proposes a SEIR epidomological model coupled with a replicator-dynamic
 
 The objective of this paper is to increase the capabilities of the traditional SEIR models so that they could capture multiple waves of the pandemic.
 
-
+For more information on the paper and see the pdf file for it, visit this [link](https://hoseinkh.github.io/publications/publication-986/).
 
