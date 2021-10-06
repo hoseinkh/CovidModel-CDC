@@ -6,5 +6,9 @@ The codes are for the paper titled ***Disease spread coupled with evolutionary s
 
 
 
-The 
+The paper proposes a SEIR epidomological model coupled with a replicator-dynamics equation for modeling the pandemics.
+
+The objective of this paper is to increase the capabilities of the traditional SEIR models so that they could capture multiple waves of the pandemic.
+
+
 
